@@ -1,12 +1,12 @@
 Variable descriptions
 
-1.	"Activity"
+**"Activity"**
 This variable refers to which of the 6 activity the subject was engaged in. Corresponds to activities in the "activity_labels.txt" file and encoded in the "y_test.txt" and "y_train.txt" files. 
 
-2.	"Subject"
+**"Subject"**
 Describes which of the 30 subject is performing the activity. 
 
-3.	Body acceleration variables
+**Body acceleration variables**
 Describes body acceleration in X, Y, Z directions. 
 
 - time-body-acceleration-mean-X-axis
@@ -20,7 +20,7 @@ Describes body acceleration in X, Y, Z directions.
 - time-body-acceleration-stdev-Y-axis
 - time-body-acceleration-stdev-Z-axis
 
-4.	Gravity acceleration variables
+**Gravity acceleration variables**
 
 - time-gravity-acceleration-mean-X-axis
 - time-gravity-acceleration-mean-Y-axis
@@ -32,7 +32,7 @@ Describes body acceleration in X, Y, Z directions.
 - time-gravity-acceleration-stdev-Y-axis
 - time-gravity-acceleration-stdev-Z-axis
 
-5.	Body acceleration Jerk signals
+**Body acceleration Jerk signals**
 
 the body linear acceleration and angular velocity were derived in time to obtain Jerk signals
 - time-body-acceleration-jerk-mean-X-axis
@@ -45,7 +45,7 @@ the body linear acceleration and angular velocity were derived in time to obtain
 
 - time-body-acceleration-jerk-magnitude-stdev
 
-6.	Body gyroscope signals
+**Body gyroscope signals**
 
 - time-body-gyroscope-mean-X-axis
 - time-body-gyroscope-mean-Y-axis
@@ -59,7 +59,7 @@ the body linear acceleration and angular velocity were derived in time to obtain
 
 
 
-7.	Body gyroscope jerk signals
+**Body gyroscope jerk signals**
 
 The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
 
@@ -74,7 +74,7 @@ The body linear acceleration and angular velocity were derived in time to obtain
 
 
 
-8.	Frequency domain signals
+**Frequency domain signals**
 A Fast Fourier Transform (FFT) was applied to some of these signals to derive frequency domain signals. 
 
 - frequency-body-acceleration-mean-X-axis
