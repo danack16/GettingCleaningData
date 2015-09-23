@@ -1,12 +1,15 @@
 Variable descriptions
 
 **"Activity"**
+
 This variable refers to which of the 6 activity the subject was engaged in. Corresponds to activities in the "activity_labels.txt" file and encoded in the "y_test.txt" and "y_train.txt" files. 
 
 **"Subject"**
+
 Describes which of the 30 subject is performing the activity. 
 
 **Body acceleration variables**
+
 Describes body acceleration in X, Y, Z directions. 
 
 - time-body-acceleration-mean-X-axis
@@ -75,6 +78,7 @@ The body linear acceleration and angular velocity were derived in time to obtain
 
 
 **Frequency domain signals**
+
 A Fast Fourier Transform (FFT) was applied to some of these signals to derive frequency domain signals. 
 
 - frequency-body-acceleration-mean-X-axis
