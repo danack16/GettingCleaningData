@@ -5,8 +5,10 @@ This variable refers to which of the 6 activity the subject was engaged in. Corr
 
 2.	"Subject"
 Describes which of the 30 subject is performing the activity. 
+
 3.	Body acceleration variables
 Describes body acceleration in X, Y, Z directions. 
+
 - time-body-acceleration-mean-X-axis
 - time-body-acceleration-mean-Y-axis
 - time-body-acceleration-mean-Z-axis
@@ -19,6 +21,7 @@ Describes body acceleration in X, Y, Z directions.
 - time-body-acceleration-stdev-Z-axis
 
 4.	Gravity acceleration variables
+
 - time-gravity-acceleration-mean-X-axis
 - time-gravity-acceleration-mean-Y-axis
 - time-gravity-acceleration-mean-Z-axis
@@ -30,6 +33,7 @@ Describes body acceleration in X, Y, Z directions.
 - time-gravity-acceleration-stdev-Z-axis
 
 5.	Body acceleration Jerk signals
+
 the body linear acceleration and angular velocity were derived in time to obtain Jerk signals
 - time-body-acceleration-jerk-mean-X-axis
 - time-body-acceleration-jerk-mean-Y-axis
@@ -42,6 +46,7 @@ the body linear acceleration and angular velocity were derived in time to obtain
 - time-body-acceleration-jerk-magnitude-stdev
 
 6.	Body gyroscope signals
+
 - time-body-gyroscope-mean-X-axis
 - time-body-gyroscope-mean-Y-axis
 - time-body-gyroscope-mean-Z-axis
@@ -55,7 +60,9 @@ the body linear acceleration and angular velocity were derived in time to obtain
 
 
 7.	Body gyroscope jerk signals
+
 The body linear acceleration and angular velocity were derived in time to obtain Jerk signals
+
 - time-body-gyroscope-jerk-mean-X-axis
 - time-body-gyroscope-jerk-mean-Y-axis
 - time-body-gyroscope-jerk-mean-Z-axis
